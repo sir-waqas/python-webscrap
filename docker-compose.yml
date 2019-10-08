@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  scrapper:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./src:/usr/src/app
